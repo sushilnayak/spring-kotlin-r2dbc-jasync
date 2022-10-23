@@ -1,0 +1,17 @@
+r2dbc.pool:
+  initialSize: 3
+  maxSize: 5
+  maxLife: 10
+  maxCreateConnectionTime: 5
+  maxIdleTime: 10
+
+r2dbc:
+  host: mysql-sushil.cpthxklw6jlh.us-east-1.rds.amazonaws.com
+  port: 3306
+  db: sushil_demo
+  username: admin
+  password: root
+
+logging:
+  level:
+    com.github.jasync: trace
